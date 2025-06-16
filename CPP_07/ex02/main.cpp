@@ -1,7 +1,4 @@
 #include "Array.hpp"
-#include <iostream>
-#include <ctime>
-#include <cstdlib>
 
 int	main(void)
 {

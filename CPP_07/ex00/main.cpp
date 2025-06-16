@@ -1,5 +1,16 @@
-#include "whatever.hpp"
-#include <iostream>
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   main.cpp                                           :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: dangtran <dangtran@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2025/06/16 15:55:37 by dangtran          #+#    #+#             */
+/*   Updated: 2025/06/16 16:35:30 by dangtran         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+#include "Whatever.hpp"
 
 int	main(void)
 {
@@ -19,8 +30,8 @@ int	main(void)
 	std::cout << "min( c, d ) = " << ::min( c, d ) << std::endl;
 	std::cout << "max( c, d ) = " << ::max( c, d ) << std::endl;
 
-	// test with string and int (not possible)
-	// std::string e = "chaine1";
+	// NOT THE SAME TYPE
+	// std::string e = "hello";
 	// int			f = 42;
 	
 	// ::swap(e, f);
